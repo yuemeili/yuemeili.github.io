@@ -6,11 +6,11 @@ full_posts: 3
 
 <div class='home-box' id='home-left'>
 	<h2>
-		<a class='float-right'><img src='/images/subscribe-icon.gif' alt='Subscribe'/>
+		<a href='atom.xml' class='float-right'><img src='/images/subscribe-icon.gif' alt='Subscribe'/>
 		</a>
 			  本页将显示最新的3篇博客
 		<a class='float-right' href='/blog.html'>
-		      察看所有博客，请点这里
+		      查看所有博客，请点这里
 		</a>
 	</h2>
   
@@ -19,7 +19,7 @@ full_posts: 3
     <span class='date'>{{post.date | date: "%Y-%m-%d"}}</span>
     <h1><a href='{{post.url}}'>{{post.title}}</a></h1>
     <div class='body'>{{post.content}}</div>
-    <a href='{{post.url}}#disqus_thread'>察看评论</a>
+    <a href='{{post.url}}#disqus_thread'>查看评论</a>
   </div>
 {% endfor %}
 
